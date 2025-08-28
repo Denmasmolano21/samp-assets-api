@@ -1,0 +1,1062 @@
+[
+    {
+        "nama": "Andromada",
+        "id": "592",
+        "image": "samp_vehicles_images/Andromada_592.png"
+    },
+    {
+        "nama": "AT-400",
+        "id": "577",
+        "image": "samp_vehicles_images/AT-400_577.png"
+    },
+    {
+        "nama": "Beagle",
+        "id": "511",
+        "image": "samp_vehicles_images/Beagle_511.png"
+    },
+    {
+        "nama": "Cropduster",
+        "id": "512",
+        "image": "samp_vehicles_images/Cropduster_512.png"
+    },
+    {
+        "nama": "Dodo",
+        "id": "593",
+        "image": "samp_vehicles_images/Dodo_593.png"
+    },
+    {
+        "nama": "Hydra",
+        "id": "520",
+        "image": "samp_vehicles_images/Hydra_520.png"
+    },
+    {
+        "nama": "Nevada",
+        "id": "553",
+        "image": "samp_vehicles_images/Nevada_553.png"
+    },
+    {
+        "nama": "Rustler",
+        "id": "476",
+        "image": "samp_vehicles_images/Rustler_476.png"
+    },
+    {
+        "nama": "Shamal",
+        "id": "519",
+        "image": "samp_vehicles_images/Shamal_519.png"
+    },
+    {
+        "nama": "Skimmer",
+        "id": "460",
+        "image": "samp_vehicles_images/Skimmer_460.png"
+    },
+    {
+        "nama": "Stuntplane",
+        "id": "513",
+        "image": "samp_vehicles_images/Stuntplane_513.png"
+    },
+    {
+        "nama": "Cargobob",
+        "id": "548",
+        "image": "samp_vehicles_images/Cargobob_548.png"
+    },
+    {
+        "nama": "Hunter",
+        "id": "425",
+        "image": "samp_vehicles_images/Hunter_425.png"
+    },
+    {
+        "nama": "Leviathan",
+        "id": "417",
+        "image": "samp_vehicles_images/Leviathan_417.png"
+    },
+    {
+        "nama": "Maverick",
+        "id": "487",
+        "image": "samp_vehicles_images/Maverick_487.png"
+    },
+    {
+        "nama": "News Chopper",
+        "id": "488",
+        "image": "samp_vehicles_images/News_Chopper_488.png"
+    },
+    {
+        "nama": "Police Maverick",
+        "id": "497",
+        "image": "samp_vehicles_images/Police_Maverick_497.png"
+    },
+    {
+        "nama": "Raindance",
+        "id": "563",
+        "image": "samp_vehicles_images/Raindance_563.png"
+    },
+    {
+        "nama": "Seasparrow",
+        "id": "447",
+        "image": "samp_vehicles_images/Seasparrow_447.png"
+    },
+    {
+        "nama": "Sparrow",
+        "id": "469",
+        "image": "samp_vehicles_images/Sparrow_469.png"
+    },
+    {
+        "nama": "Coastguard",
+        "id": "472",
+        "image": "samp_vehicles_images/Coastguard_472.png"
+    },
+    {
+        "nama": "Dinghy",
+        "id": "473",
+        "image": "samp_vehicles_images/Dinghy_473.png"
+    },
+    {
+        "nama": "Jetmax",
+        "id": "493",
+        "image": "samp_vehicles_images/Jetmax_493.png"
+    },
+    {
+        "nama": "Launch",
+        "id": "595",
+        "image": "samp_vehicles_images/Launch_595.png"
+    },
+    {
+        "nama": "Marquis",
+        "id": "484",
+        "image": "samp_vehicles_images/Marquis_484.png"
+    },
+    {
+        "nama": "Predator",
+        "id": "430",
+        "image": "samp_vehicles_images/Predator_430.png"
+    },
+    {
+        "nama": "Reefer",
+        "id": "453",
+        "image": "samp_vehicles_images/Reefer_453.png"
+    },
+    {
+        "nama": "Speeder",
+        "id": "452",
+        "image": "samp_vehicles_images/Speeder_452.png"
+    },
+    {
+        "nama": "Squalo",
+        "id": "446",
+        "image": "samp_vehicles_images/Squalo_446.png"
+    },
+    {
+        "nama": "Tropic",
+        "id": "454",
+        "image": "samp_vehicles_images/Tropic_454.png"
+    },
+    {
+        "nama": "BF-400",
+        "id": "581",
+        "image": "samp_vehicles_images/BF-400_581.png"
+    },
+    {
+        "nama": "Bike",
+        "id": "509",
+        "image": "samp_vehicles_images/Bike_509.png"
+    },
+    {
+        "nama": "BMX",
+        "id": "481",
+        "image": "samp_vehicles_images/BMX_481.png"
+    },
+    {
+        "nama": "Faggio",
+        "id": "462",
+        "image": "samp_vehicles_images/Faggio_462.png"
+    },
+    {
+        "nama": "FCR-900",
+        "id": "521",
+        "image": "samp_vehicles_images/FCR-900_521.png"
+    },
+    {
+        "nama": "Freeway",
+        "id": "463",
+        "image": "samp_vehicles_images/Freeway_463.png"
+    },
+    {
+        "nama": "Mountain Bike",
+        "id": "510",
+        "image": "samp_vehicles_images/Mountain_Bike_510.png"
+    },
+    {
+        "nama": "NRG-500",
+        "id": "522",
+        "image": "samp_vehicles_images/NRG-500_522.png"
+    },
+    {
+        "nama": "PCJ-600",
+        "id": "461",
+        "image": "samp_vehicles_images/PCJ-600_461.png"
+    },
+    {
+        "nama": "Pizza Boy",
+        "id": "448",
+        "image": "samp_vehicles_images/Pizza_Boy_448.png"
+    },
+    {
+        "nama": "Sanchez",
+        "id": "468",
+        "image": "samp_vehicles_images/Sanchez_468.png"
+    },
+    {
+        "nama": "Wayfarer",
+        "id": "586",
+        "image": "samp_vehicles_images/Wayfarer_586.png"
+    },
+    {
+        "nama": "Alpha",
+        "id": "602",
+        "image": "samp_vehicles_images/Alpha_602.png"
+    },
+    {
+        "nama": "Blista Compact",
+        "id": "496",
+        "image": "samp_vehicles_images/Blista_Compact_496.png"
+    },
+    {
+        "nama": "Bravura",
+        "id": "401",
+        "image": "samp_vehicles_images/Bravura_401.png"
+    },
+    {
+        "nama": "Buccaneer",
+        "id": "518",
+        "image": "samp_vehicles_images/Buccaneer_518.png"
+    },
+    {
+        "nama": "Cadrona",
+        "id": "527",
+        "image": "samp_vehicles_images/Cadrona_527.png"
+    },
+    {
+        "nama": "Club",
+        "id": "589",
+        "image": "samp_vehicles_images/Club_589.png"
+    },
+    {
+        "nama": "Esperanto",
+        "id": "419",
+        "image": "samp_vehicles_images/Esperanto_419.png"
+    },
+    {
+        "nama": "Euros",
+        "id": "587",
+        "image": "samp_vehicles_images/Euros_587.png"
+    },
+    {
+        "nama": "Feltzer",
+        "id": "533",
+        "image": "samp_vehicles_images/Feltzer_533.png"
+    },
+    {
+        "nama": "Fortune",
+        "id": "526",
+        "image": "samp_vehicles_images/Fortune_526.png"
+    },
+    {
+        "nama": "Hermes",
+        "id": "474",
+        "image": "samp_vehicles_images/Hermes_474.png"
+    },
+    {
+        "nama": "Hustler",
+        "id": "545",
+        "image": "samp_vehicles_images/Hustler_545.png"
+    },
+    {
+        "nama": "Majestic",
+        "id": "517",
+        "image": "samp_vehicles_images/Majestic_517.png"
+    },
+    {
+        "nama": "Manana",
+        "id": "410",
+        "image": "samp_vehicles_images/Manana_410.png"
+    },
+    {
+        "nama": "Picador",
+        "id": "600",
+        "image": "samp_vehicles_images/Picador_600.png"
+    },
+    {
+        "nama": "Previon",
+        "id": "436",
+        "image": "samp_vehicles_images/Previon_436.png"
+    },
+    {
+        "nama": "Stallion",
+        "id": "439",
+        "image": "samp_vehicles_images/Stallion_439.png"
+    },
+    {
+        "nama": "Tampa",
+        "id": "549",
+        "image": "samp_vehicles_images/Tampa_549.png"
+    },
+    {
+        "nama": "Virgo",
+        "id": "491",
+        "image": "samp_vehicles_images/Virgo_491.png"
+    },
+    {
+        "nama": "Admiral",
+        "id": "445",
+        "image": "samp_vehicles_images/Admiral_445.png"
+    },
+    {
+        "nama": "Damaged Glendale",
+        "id": "604",
+        "image": "samp_vehicles_images/Damaged_Glendale_604.png"
+    },
+    {
+        "nama": "Elegant",
+        "id": "507",
+        "image": "samp_vehicles_images/Elegant_507.png"
+    },
+    {
+        "nama": "Emperor",
+        "id": "585",
+        "image": "samp_vehicles_images/Emperor_585.png"
+    },
+    {
+        "nama": "Glendale",
+        "id": "466",
+        "image": "samp_vehicles_images/Glendale_466.png"
+    },
+    {
+        "nama": "Greenwood",
+        "id": "492",
+        "image": "samp_vehicles_images/Greenwood_492.png"
+    },
+    {
+        "nama": "Intruder",
+        "id": "546",
+        "image": "samp_vehicles_images/Intruder_546.png"
+    },
+    {
+        "nama": "Merit",
+        "id": "551",
+        "image": "samp_vehicles_images/Merit_551.png"
+    },
+    {
+        "nama": "Nebula",
+        "id": "516",
+        "image": "samp_vehicles_images/Nebula_516.png"
+    },
+    {
+        "nama": "Oceanic",
+        "id": "467",
+        "image": "samp_vehicles_images/Oceanic_467.png"
+    },
+    {
+        "nama": "Premier",
+        "id": "426",
+        "image": "samp_vehicles_images/Premier_426.png"
+    },
+    {
+        "nama": "Primo",
+        "id": "547",
+        "image": "samp_vehicles_images/Primo_547.png"
+    },
+    {
+        "nama": "Sentinel",
+        "id": "405",
+        "image": "samp_vehicles_images/Sentinel_405.png"
+    },
+    {
+        "nama": "Stafford",
+        "id": "580",
+        "image": "samp_vehicles_images/Stafford_580.png"
+    },
+    {
+        "nama": "Stretch",
+        "id": "409",
+        "image": "samp_vehicles_images/Stretch_409.png"
+    },
+    {
+        "nama": "Sunrise",
+        "id": "550",
+        "image": "samp_vehicles_images/Sunrise_550.png"
+    },
+    {
+        "nama": "Tahoma",
+        "id": "566",
+        "image": "samp_vehicles_images/Tahoma_566.png"
+    },
+    {
+        "nama": "Vincent",
+        "id": "540",
+        "image": "samp_vehicles_images/Vincent_540.png"
+    },
+    {
+        "nama": "Washington",
+        "id": "421",
+        "image": "samp_vehicles_images/Washington_421.png"
+    },
+    {
+        "nama": "Willard",
+        "id": "529",
+        "image": "samp_vehicles_images/Willard_529.png"
+    },
+    {
+        "nama": "Baggage",
+        "id": "485",
+        "image": "samp_vehicles_images/Baggage_485.png"
+    },
+    {
+        "nama": "Bus",
+        "id": "431",
+        "image": "samp_vehicles_images/Bus_431.png"
+    },
+    {
+        "nama": "Cabbie",
+        "id": "438",
+        "image": "samp_vehicles_images/Cabbie_438.png"
+    },
+    {
+        "nama": "Coach",
+        "id": "437",
+        "image": "samp_vehicles_images/Coach_437.png"
+    },
+    {
+        "nama": "Sweeper",
+        "id": "574",
+        "image": "samp_vehicles_images/Sweeper_574.png"
+    },
+    {
+        "nama": "Taxi",
+        "id": "420",
+        "image": "samp_vehicles_images/Taxi_420.png"
+    },
+    {
+        "nama": "Towtruck",
+        "id": "525",
+        "image": "samp_vehicles_images/Towtruck_525.png"
+    },
+    {
+        "nama": "Trashmaster",
+        "id": "408",
+        "image": "samp_vehicles_images/Trashmaster_408.png"
+    },
+    {
+        "nama": "Utility Van",
+        "id": "552",
+        "image": "samp_vehicles_images/Utility_Van_552.png"
+    },
+    {
+        "nama": "Ambulance",
+        "id": "416",
+        "image": "samp_vehicles_images/Ambulance_416.png"
+    },
+    {
+        "nama": "Barracks",
+        "id": "433",
+        "image": "samp_vehicles_images/Barracks_433.png"
+    },
+    {
+        "nama": "Enforcer",
+        "id": "427",
+        "image": "samp_vehicles_images/Enforcer_427.png"
+    },
+    {
+        "nama": "FBI Rancher",
+        "id": "490",
+        "image": "samp_vehicles_images/FBI_Rancher_490.png"
+    },
+    {
+        "nama": "FBI Truck",
+        "id": "528",
+        "image": "samp_vehicles_images/FBI_Truck_528.png"
+    },
+    {
+        "nama": "Fire Truck",
+        "id": "407",
+        "image": "samp_vehicles_images/Fire_Truck_407.png"
+    },
+    {
+        "nama": "Fire Truck",
+        "id": "544",
+        "image": "samp_vehicles_images/Fire_Truck_544.png"
+    },
+    {
+        "nama": "HPV1000",
+        "id": "523",
+        "image": "samp_vehicles_images/HPV1000_523.png"
+    },
+    {
+        "nama": "Patriot",
+        "id": "470",
+        "image": "samp_vehicles_images/Patriot_470.png"
+    },
+    {
+        "nama": "Police LS",
+        "id": "596",
+        "image": "samp_vehicles_images/Police_LS_596.png"
+    },
+    {
+        "nama": "Police LV",
+        "id": "598",
+        "image": "samp_vehicles_images/Police_LV_598.png"
+    },
+    {
+        "nama": "Police Ranger",
+        "id": "599",
+        "image": "samp_vehicles_images/Police_Ranger_599.png"
+    },
+    {
+        "nama": "Police SF",
+        "id": "597",
+        "image": "samp_vehicles_images/Police_SF_597.png"
+    },
+    {
+        "nama": "Rhino",
+        "id": "432",
+        "image": "samp_vehicles_images/Rhino_432.png"
+    },
+    {
+        "nama": "S.W.A.T.",
+        "id": "601",
+        "image": "samp_vehicles_images/S.W.A.T._601.png"
+    },
+    {
+        "nama": "Securicar",
+        "id": "428",
+        "image": "samp_vehicles_images/Securicar_428.png"
+    },
+    {
+        "nama": "Benson",
+        "id": "499",
+        "image": "samp_vehicles_images/Benson_499.png"
+    },
+    {
+        "nama": "Black Boxville",
+        "id": "609",
+        "image": "samp_vehicles_images/Black_Boxville_609.png"
+    },
+    {
+        "nama": "Boxville",
+        "id": "498",
+        "image": "samp_vehicles_images/Boxville_498.png"
+    },
+    {
+        "nama": "Cement Truck",
+        "id": "524",
+        "image": "samp_vehicles_images/Cement_Truck_524.png"
+    },
+    {
+        "nama": "Combine Harvester",
+        "id": "532",
+        "image": "samp_vehicles_images/Combine_Harvester_532.png"
+    },
+    {
+        "nama": "DFT-30",
+        "id": "578",
+        "image": "samp_vehicles_images/DFT-30_578.png"
+    },
+    {
+        "nama": "Dozer",
+        "id": "486",
+        "image": "samp_vehicles_images/Dozer_486.png"
+    },
+    {
+        "nama": "Dumper",
+        "id": "406",
+        "image": "samp_vehicles_images/Dumper_406.png"
+    },
+    {
+        "nama": "Dune",
+        "id": "573",
+        "image": "samp_vehicles_images/Dune_573.png"
+    },
+    {
+        "nama": "Flatbed",
+        "id": "455",
+        "image": "samp_vehicles_images/Flatbed_455.png"
+    },
+    {
+        "nama": "Hotdog",
+        "id": "588",
+        "image": "samp_vehicles_images/Hotdog_588.png"
+    },
+    {
+        "nama": "Linerunner",
+        "id": "403",
+        "image": "samp_vehicles_images/Linerunner_403.png"
+    },
+    {
+        "nama": "Mr. Whoopee",
+        "id": "423",
+        "image": "samp_vehicles_images/Mr._Whoopee_423.png"
+    },
+    {
+        "nama": "Mule",
+        "id": "414",
+        "image": "samp_vehicles_images/Mule_414.png"
+    },
+    {
+        "nama": "Packer",
+        "id": "443",
+        "image": "samp_vehicles_images/Packer_443.png"
+    },
+    {
+        "nama": "Roadtrain",
+        "id": "515",
+        "image": "samp_vehicles_images/Roadtrain_515.png"
+    },
+    {
+        "nama": "Tanker",
+        "id": "514",
+        "image": "samp_vehicles_images/Tanker_514.png"
+    },
+    {
+        "nama": "Tractor",
+        "id": "531",
+        "image": "samp_vehicles_images/Tractor_531.png"
+    },
+    {
+        "nama": "Yankee",
+        "id": "456",
+        "image": "samp_vehicles_images/Yankee_456.png"
+    },
+    {
+        "nama": "Baggage Trailer",
+        "id": "606",
+        "image": "samp_vehicles_images/Baggage_Trailer_606.png"
+    },
+    {
+        "nama": "Baggage Trailer",
+        "id": "607",
+        "image": "samp_vehicles_images/Baggage_Trailer_607.png"
+    },
+    {
+        "nama": "Farm Trailer",
+        "id": "610",
+        "image": "samp_vehicles_images/Farm_Trailer_610.png"
+    },
+    {
+        "nama": "Petrol trailer",
+        "id": "584",
+        "image": "samp_vehicles_images/Petrol_trailer_584.png"
+    },
+    {
+        "nama": "Trailer",
+        "id": "611",
+        "image": "samp_vehicles_images/Trailer_611.png"
+    },
+    {
+        "nama": "Trailer",
+        "id": "608",
+        "image": "samp_vehicles_images/Trailer_608.png"
+    },
+    {
+        "nama": "Trailer 1",
+        "id": "435",
+        "image": "samp_vehicles_images/Trailer_1_435.png"
+    },
+    {
+        "nama": "Trailer 2",
+        "id": "450",
+        "image": "samp_vehicles_images/Trailer_2_450.png"
+    },
+    {
+        "nama": "Trailer 3",
+        "id": "591",
+        "image": "samp_vehicles_images/Trailer_3_591.png"
+    },
+    {
+        "nama": "Berkleys RC Van",
+        "id": "459",
+        "image": "samp_vehicles_images/Berkley's_RC_Van_459.png"
+    },
+    {
+        "nama": "Bobcat",
+        "id": "422",
+        "image": "samp_vehicles_images/Bobcat_422.png"
+    },
+    {
+        "nama": "Burrito",
+        "id": "482",
+        "image": "samp_vehicles_images/Burrito_482.png"
+    },
+    {
+        "nama": "Damaged Sadler",
+        "id": "605",
+        "image": "samp_vehicles_images/Damaged_Sadler_605.png"
+    },
+    {
+        "nama": "Forklift",
+        "id": "530",
+        "image": "samp_vehicles_images/Forklift_530.png"
+    },
+    {
+        "nama": "Moonbeam",
+        "id": "418",
+        "image": "samp_vehicles_images/Moonbeam_418.png"
+    },
+    {
+        "nama": "Mower",
+        "id": "572",
+        "image": "samp_vehicles_images/Mower_572.png"
+    },
+    {
+        "nama": "News Van",
+        "id": "582",
+        "image": "samp_vehicles_images/News_Van_582.png"
+    },
+    {
+        "nama": "Pony",
+        "id": "413",
+        "image": "samp_vehicles_images/Pony_413.png"
+    },
+    {
+        "nama": "Rumpo",
+        "id": "440",
+        "image": "samp_vehicles_images/Rumpo_440.png"
+    },
+    {
+        "nama": "Sadler",
+        "id": "543",
+        "image": "samp_vehicles_images/Sadler_543.png"
+    },
+    {
+        "nama": "Tug",
+        "id": "583",
+        "image": "samp_vehicles_images/Tug_583.png"
+    },
+    {
+        "nama": "Walton",
+        "id": "478",
+        "image": "samp_vehicles_images/Walton_478.png"
+    },
+    {
+        "nama": "Yosemite",
+        "id": "554",
+        "image": "samp_vehicles_images/Yosemite_554.png"
+    },
+    {
+        "nama": "Huntley",
+        "id": "579",
+        "image": "samp_vehicles_images/Huntley_579.png"
+    },
+    {
+        "nama": "Landstalker",
+        "id": "400",
+        "image": "samp_vehicles_images/Landstalker_400.png"
+    },
+    {
+        "nama": "Perennial",
+        "id": "404",
+        "image": "samp_vehicles_images/Perennial_404.png"
+    },
+    {
+        "nama": "Rancher",
+        "id": "489",
+        "image": "samp_vehicles_images/Rancher_489.png"
+    },
+    {
+        "nama": "Rancher",
+        "id": "505",
+        "image": "samp_vehicles_images/Rancher_505.png"
+    },
+    {
+        "nama": "Regina",
+        "id": "479",
+        "image": "samp_vehicles_images/Regina_479.png"
+    },
+    {
+        "nama": "Romero",
+        "id": "442",
+        "image": "samp_vehicles_images/Romero_442.png"
+    },
+    {
+        "nama": "Solair",
+        "id": "458",
+        "image": "samp_vehicles_images/Solair_458.png"
+    },
+    {
+        "nama": "Blade",
+        "id": "536",
+        "image": "samp_vehicles_images/Blade_536.png"
+    },
+    {
+        "nama": "Broadway",
+        "id": "575",
+        "image": "samp_vehicles_images/Broadway_575.png"
+    },
+    {
+        "nama": "Remington",
+        "id": "534",
+        "image": "samp_vehicles_images/Remington_534.png"
+    },
+    {
+        "nama": "Savanna",
+        "id": "567",
+        "image": "samp_vehicles_images/Savanna_567.png"
+    },
+    {
+        "nama": "Slamvan",
+        "id": "535",
+        "image": "samp_vehicles_images/Slamvan_535.png"
+    },
+    {
+        "nama": "Tornado",
+        "id": "576",
+        "image": "samp_vehicles_images/Tornado_576.png"
+    },
+    {
+        "nama": "Voodoo",
+        "id": "412",
+        "image": "samp_vehicles_images/Voodoo_412.png"
+    },
+    {
+        "nama": "Buffalo",
+        "id": "402",
+        "image": "samp_vehicles_images/Buffalo_402.png"
+    },
+    {
+        "nama": "Clover",
+        "id": "542",
+        "image": "samp_vehicles_images/Clover_542.png"
+    },
+    {
+        "nama": "Phoenix",
+        "id": "603",
+        "image": "samp_vehicles_images/Phoenix_603.png"
+    },
+    {
+        "nama": "Sabre",
+        "id": "475",
+        "image": "samp_vehicles_images/Sabre_475.png"
+    },
+    {
+        "nama": "Banshee",
+        "id": "429",
+        "image": "samp_vehicles_images/Banshee_429.png"
+    },
+    {
+        "nama": "Bullet",
+        "id": "541",
+        "image": "samp_vehicles_images/Bullet_541.png"
+    },
+    {
+        "nama": "Cheetah",
+        "id": "415",
+        "image": "samp_vehicles_images/Cheetah_415.png"
+    },
+    {
+        "nama": "Comet",
+        "id": "480",
+        "image": "samp_vehicles_images/Comet_480.png"
+    },
+    {
+        "nama": "Elegy",
+        "id": "562",
+        "image": "samp_vehicles_images/Elegy_562.png"
+    },
+    {
+        "nama": "Flash",
+        "id": "565",
+        "image": "samp_vehicles_images/Flash_565.png"
+    },
+    {
+        "nama": "Hotknife",
+        "id": "434",
+        "image": "samp_vehicles_images/Hotknife_434.png"
+    },
+    {
+        "nama": "Hotring Racer",
+        "id": "494",
+        "image": "samp_vehicles_images/Hotring_Racer_494.png"
+    },
+    {
+        "nama": "Hotring Racer 2",
+        "id": "502",
+        "image": "samp_vehicles_images/Hotring_Racer_2_502.png"
+    },
+    {
+        "nama": "Hotring Racer 3",
+        "id": "503",
+        "image": "samp_vehicles_images/Hotring_Racer_3_503.png"
+    },
+    {
+        "nama": "Infernus",
+        "id": "411",
+        "image": "samp_vehicles_images/Infernus_411.png"
+    },
+    {
+        "nama": "Jester",
+        "id": "559",
+        "image": "samp_vehicles_images/Jester_559.png"
+    },
+    {
+        "nama": "Stratum",
+        "id": "561",
+        "image": "samp_vehicles_images/Stratum_561.png"
+    },
+    {
+        "nama": "Sultan",
+        "id": "560",
+        "image": "samp_vehicles_images/Sultan_560.png"
+    },
+    {
+        "nama": "Super GT",
+        "id": "506",
+        "image": "samp_vehicles_images/Super_GT_506.png"
+    },
+    {
+        "nama": "Turismo",
+        "id": "451",
+        "image": "samp_vehicles_images/Turismo_451.png"
+    },
+    {
+        "nama": "Uranus",
+        "id": "558",
+        "image": "samp_vehicles_images/Uranus_558.png"
+    },
+    {
+        "nama": "Windsor",
+        "id": "555",
+        "image": "samp_vehicles_images/Windsor_555.png"
+    },
+    {
+        "nama": "ZR-350",
+        "id": "477",
+        "image": "samp_vehicles_images/ZR-350_477.png"
+    },
+    {
+        "nama": "Bandito",
+        "id": "568",
+        "image": "samp_vehicles_images/Bandito_568.png"
+    },
+    {
+        "nama": "BF Injection",
+        "id": "424",
+        "image": "samp_vehicles_images/BF_Injection_424.png"
+    },
+    {
+        "nama": "Bloodring Banger",
+        "id": "504",
+        "image": "samp_vehicles_images/Bloodring_Banger_504.png"
+    },
+    {
+        "nama": "Caddy",
+        "id": "457",
+        "image": "samp_vehicles_images/Caddy_457.png"
+    },
+    {
+        "nama": "Camper",
+        "id": "483",
+        "image": "samp_vehicles_images/Camper_483.png"
+    },
+    {
+        "nama": "Journey",
+        "id": "508",
+        "image": "samp_vehicles_images/Journey_508.png"
+    },
+    {
+        "nama": "Kart",
+        "id": "571",
+        "image": "samp_vehicles_images/Kart_571.png"
+    },
+    {
+        "nama": "Mesa",
+        "id": "500",
+        "image": "samp_vehicles_images/Mesa_500.png"
+    },
+    {
+        "nama": "Monster",
+        "id": "444",
+        "image": "samp_vehicles_images/Monster_444.png"
+    },
+    {
+        "nama": "Monster 2",
+        "id": "556",
+        "image": "samp_vehicles_images/Monster_2_556.png"
+    },
+    {
+        "nama": "Monster 3",
+        "id": "557",
+        "image": "samp_vehicles_images/Monster_3_557.png"
+    },
+    {
+        "nama": "Quadbike",
+        "id": "471",
+        "image": "samp_vehicles_images/Quadbike_471.png"
+    },
+    {
+        "nama": "Sandking",
+        "id": "495",
+        "image": "samp_vehicles_images/Sandking_495.png"
+    },
+    {
+        "nama": "Vortex",
+        "id": "539",
+        "image": "samp_vehicles_images/Vortex_539.png"
+    },
+    {
+        "nama": "RC Bandit",
+        "id": "441",
+        "image": "samp_vehicles_images/RC_Bandit_441.png"
+    },
+    {
+        "nama": "RC Baron",
+        "id": "464",
+        "image": "samp_vehicles_images/RC_Baron_464.png"
+    },
+    {
+        "nama": "RC Cam",
+        "id": "594",
+        "image": "samp_vehicles_images/RC_Cam_594.png"
+    },
+    {
+        "nama": "RC Goblin",
+        "id": "501",
+        "image": "samp_vehicles_images/RC_Goblin_501.png"
+    },
+    {
+        "nama": "RC Raider",
+        "id": "465",
+        "image": "samp_vehicles_images/RC_Raider_465.png"
+    },
+    {
+        "nama": "RC Tiger",
+        "id": "564",
+        "image": "samp_vehicles_images/RC_Tiger_564.png"
+    },
+    {
+        "nama": "Box Freight",
+        "id": "590",
+        "image": "samp_vehicles_images/Box_Freight_590.png"
+    },
+    {
+        "nama": "Brown Streak",
+        "id": "538",
+        "image": "samp_vehicles_images/Brown_Streak_538.png"
+    },
+    {
+        "nama": "Brown Streak Carriage",
+        "id": "570",
+        "image": "samp_vehicles_images/Brown_Streak_Carriage_570.png"
+    },
+    {
+        "nama": "Flat Freight",
+        "id": "569",
+        "image": "samp_vehicles_images/Flat_Freight_569.png"
+    },
+    {
+        "nama": "Freight",
+        "id": "537",
+        "image": "samp_vehicles_images/Freight_537.png"
+    },
+    {
+        "nama": "Tram",
+        "id": "449",
+        "image": "samp_vehicles_images/Tram_449.png"
+    }
+]

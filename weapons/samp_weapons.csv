@@ -1,0 +1,56 @@
+id,icon,death_reason,description,slot,model_id,ammo,reload,notes
+0,samp_weapons_images/weapon_0.png,,-,0,-,-,-,-
+1,samp_weapons_images/weapon_1.png,,WEAPON_BRASSKNUCKLE,0,331,-,-,-
+2,samp_weapons_images/weapon_2.png,,WEAPON_GOLFCLUB,0,333,-,-,-
+3,samp_weapons_images/weapon_3.png,,WEAPON_NITESTICK,1,334,-,-,-
+4,samp_weapons_images/weapon_4.png,,WEAPON_KNIFE,1,335,-,-,РњРѕР¶РµС‚ Р±С‹С‚СЊ СЂР°СЃСЃРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°РЅРЅРѕ СЃ РґСЂСѓРіРёРјРё РёРіСЂРѕРєР°РјРё.
+5,samp_weapons_images/weapon_5.png,,WEAPON_BAT,1,336,-,-,-
+6,samp_weapons_images/weapon_6.png,,WEAPON_SHOVEL,1,337,-,-,-
+7,samp_weapons_images/weapon_7.png,,WEAPON_POOLSTICK,1,338,-,-,-
+8,samp_weapons_images/weapon_8.png,,WEAPON_KATANA,1,339,-,-,РќРµ РјРѕР¶РµС‚ РѕР±РµР·РіР»Р°РІР»РёРІР°С‚СЊ РёРіСЂРѕРєРѕРІ.
+9,samp_weapons_images/weapon_9.png,,WEAPON_CHAINSAW,1,341,-,-,-
+10,samp_weapons_images/weapon_10.png,,WEAPON_DILDO,10,321,-,-,-
+11,samp_weapons_images/weapon_11.png,,WEAPON_DILDO2,10,322,-,-,-
+12,samp_weapons_images/weapon_12.png,,WEAPON_VIBRATOR,10,323,-,-,-
+13,samp_weapons_images/weapon_13.png,,WEAPON_VIBRATOR2,10,324,-,-,-
+14,samp_weapons_images/weapon_14.png,,WEAPON_FLOWER,10,325,-,-,-
+15,samp_weapons_images/weapon_15.png,,WEAPON_CANE,10,326,-,-,-
+16,samp_weapons_images/weapon_16.png,,WEAPON_GRENADE,8,342,1,РќРµС‚,РќРµ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚ РѕРіРѕРЅСЊ.
+17,samp_weapons_images/weapon_17.png,,WEAPON_TEARGAS,8,343,1,РќРµС‚,Р’ SA-MP РѕС‚РєР»СЋС‡С‘РЅ СЌС„С„РµРєС‚ РїРѕРєР°С€Р»РёРІР°РЅРёСЏ.
+18,samp_weapons_images/weapon_18.png,,WEAPON_MOLOTOV,8,344,1,РќРµС‚,Р Р°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚ РѕРіРѕРЅСЊ.
+22,samp_weapons_images/weapon_22.png,,WEAPON_COLT45,2,346,17 (34 РµСЃР»Рё РІ РґРІСѓС… СЂСѓРєР°С…),РќРµС‚,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+23,samp_weapons_images/weapon_23.png,,WEAPON_SILENCED,2,347,17,РќРµС‚,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+24,samp_weapons_images/weapon_24.png,,WEAPON_DEAGLE,2,348,7,РќРµС‚,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+25,samp_weapons_images/weapon_25.png,,WEAPON_SHOTGUN,3,349,1,Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+26,samp_weapons_images/weapon_26.png,,WEAPON_SAWEDOFF,3,350,2 (4 РµСЃР»Рё РІ РґРІСѓС… СЂСѓРєР°С…),Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+27,samp_weapons_images/weapon_27.png,,WEAPON_SHOTGSPA,3,351,7,Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+28,samp_weapons_images/weapon_28.png,,WEAPON_UZI,4,352,50 (100 РµСЃР»Рё РІ РґРІСѓС… СЂСѓРєР°С…),Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+29,samp_weapons_images/weapon_29.png,,WEAPON_MP5,4,353,30,Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+30,samp_weapons_images/weapon_30.png,,WEAPON_AK47,5,355,30,Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+31,samp_weapons_images/weapon_31.png,,WEAPON_M4,5,356,50,Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+32,samp_weapons_images/weapon_32.png,,WEAPON_TEC9,4,372,50 (100 РµСЃР»Рё РІ РґРІСѓС… СЂСѓРєР°С…),Р”Р°,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+33,samp_weapons_images/weapon_33.png,,WEAPON_RIFLE,6,357,1,РќРµС‚,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+34,samp_weapons_images/weapon_34.png,,WEAPON_SNIPER,6,358,1,РќРµС‚,РќР°РІС‹Рє РІР»Р°РґРµРЅРёСЏ РѕСЂСѓР¶РёРµРј РЅР°СЃС‚СЂР°РёРІР°РµС‚СЃСЏ С‡РµСЂРµР· SetPlayerSkillLevel.
+35,samp_weapons_images/weapon_35.png,,WEAPON_ROCKETLAUNCHER,7,359,1,РќРµС‚,-
+36,samp_weapons_images/weapon_36.png,,WEAPON_HEATSEEKER,7,360,1,РќРµС‚,РќРµ СЃРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°РЅ Р·Р°С…РІР°С‚ С†РµР»Рё.
+37,samp_weapons_images/weapon_37.png,,WEAPON_FLAMETHROWER,7,361,500 (РІ РёРіСЂРµ РїРѕРєР°Р·С‹РІР°РµС‚ 50),РќРµС‚,РќР°РЅРѕСЃРёС‚ СѓСЂРѕРЅ РѕРіРЅС‘Рј.
+38,samp_weapons_images/weapon_38.png,,WEAPON_MINIGUN,7,362,500,РќРµС‚,-
+39,samp_weapons_images/weapon_39.png,,WEAPON_SATCHEL,8,363,1,РќРµС‚,Р’Р·СЂС‹РІ СЃРёРЅС…СЂРѕРЅРёР·РёСЂСѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ СЂСЏРґРѕРј СЃ РёРіСЂРѕРєР°РјРё.
+40,samp_weapons_images/weapon_40.png,,WEAPON_BOMB,12,364,-,-,"РђРІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІС‹РґР°С‘С‚СЃСЏ, РµСЃР»Рё Р±СЂРѕСЃРёС‚СЊ РІР·СЂС‹РІС‡Р°С‚РєСѓ."
+41,samp_weapons_images/weapon_41.png,,WEAPON_SPRAYCAN,9,365,500,РќРµС‚,Р’С‹Р·С‹РІР°РµС‚ СѓРґСѓС€РµРЅРёРµ РёРіСЂРѕРєР°.
+42,samp_weapons_images/weapon_42.png,,WEAPON_FIREEXTINGUISHER,12,366,500,РќРµС‚,Р’С‹Р·С‹РІР°РµС‚ СѓРґСѓС€РµРЅРёРµ РёРіСЂРѕРєР°.
+43,samp_weapons_images/weapon_43.png,,WEAPON_CAMERA,9,367,36,РќРµС‚,"РџРѕР·РІРѕР»СЏРµС‚ СЃРѕС…СЂР°РЅСЏС‚СЊ С„РѕС‚РѕРіСЂР°С„РёРё, РµСЃР»Рё СЌС‚Рѕ РІРєР»СЋС‡РµРЅРѕ РІ РЅР°СЃС‚СЂРѕР№РєР°С… РёРіСЂС‹."
+44,samp_weapons_images/weapon_44.png,,-,11,368,-,-,РџРѕРґСЃРІРµС‡РёРІР°РµС‚ РІСЃРµС… РёРіСЂРѕРєРѕРІ.
+45,samp_weapons_images/weapon_45.png,,-,11,369,-,-,РџРѕРґСЃРІРµС‡РёРІР°РµС‚ РІСЃРµС… РёРіСЂРѕРєРѕРІ.
+46,samp_weapons_images/weapon_46.png,,WEAPON_PARACHUTE,11,371,-,-,"РџР°СЂР°С€СЋС‚С‹ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІС‹РґР°СЋС‚СЃСЏ, РµСЃР»Рё РІС‹РїСЂС‹РіРёРІР°С‚СЊ РёР· РІРѕР·РґСѓС€РЅС‹С… СЃСѓРґРѕРІ. Р�РіСЂРѕРєРё СѓРјСЂСѓС‚, РµСЃР»Рё РёС… С‚РµР»РµРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ РІ РјРѕРјРµРЅС‚, РєРѕРіРґР° РѕРЅРё Р±СѓРґСѓС‚ Р»РµС‚РµС‚СЊ РЅР° РїР°СЂР°С€СЋС‚Рµ. РћС€РёР±РєР° РёСЃРїСЂР°РІР»СЏРµС‚СЃСЏ С„СѓРЅРєС†РёРµР№ ResetPlayerWeapons."
+-,samp_weapons_images/weapon_-.png,-,-,-,-,-,-,Р’С‹СЂРµР·Р°РЅРѕ РёР· РёРіСЂС‹.
+-,samp_weapons_images/weapon_-.png,-,-,-,370,-,-,РќРµ СЂР°Р±РѕС‚Р°РµС‚ РєР°Рє РѕСЂСѓР¶РёРµ. РЎРјРѕС‚СЂРёС‚Рµ С„СѓРЅРєС†РёСЋ SetPlayerSpecialAction.
+-,samp_weapons_images/weapon_-.png,-,-,-,-,-,-,Р’С‹СЂРµР·Р°РЅРѕ РёР· РёРіСЂС‹.
+49,samp_weapons_images/weapon_49.png,,WEAPON_VEHICLE,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° СЃРјРµСЂС‚Рё Рё РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С„СѓРЅРєС†РёРµР№ GivePlayerWeapon.
+50,samp_weapons_images/weapon_50.png,,-,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° СЃРјРµСЂС‚Рё Рё РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С„СѓРЅРєС†РёРµР№ GivePlayerWeapon.
+51,samp_weapons_images/weapon_51.png,,-,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° СЃРјРµСЂС‚Рё Рё РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С„СѓРЅРєС†РёРµР№ GivePlayerWeapon.
+53,samp_weapons_images/weapon_53.png,,WEAPON_DROWN,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° СЃРјРµСЂС‚Рё Рё РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С„СѓРЅРєС†РёРµР№ GivePlayerWeapon.
+54,samp_weapons_images/weapon_54.png,,WEAPON_COLLISION,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° СЃРјРµСЂС‚Рё Рё РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С„СѓРЅРєС†РёРµР№ GivePlayerWeapon.
+200,samp_weapons_images/weapon_200.png,,-,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° РІС‹РІРѕРґР° СЃРјРµСЂС‚Рё С„СѓРЅРєС†РёРё SendDeathMessage.
+201,samp_weapons_images/weapon_201.png,,-,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° РІС‹РІРѕРґР° СЃРјРµСЂС‚Рё С„СѓРЅРєС†РёРё SendDeathMessage.
+202,samp_weapons_images/weapon_202.png,,-,-,-,-,-,Р�СЃРїРѕР»СЊР·СѓРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РєР°Рє РїСЂРёС‡РёРЅР° СЃРјРµСЂС‚Рё Рё РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С„СѓРЅРєС†РёРµР№ GivePlayerWeapon.
