@@ -1,0 +1,24 @@
+{
+  "name": "denmas",
+  "version": "1.0.0",
+  "description": "Kumpulan data terkait SA-MP: - **Skins** → Data skin player (0-311). - **Vehicles** → Data kendaraan di SA-MP. - **Guns** → Data senjata di SA-MP. - **Colors** → Warna-warna RGB/HEX bawaan SA-MP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denmasmolano21/samp-assets-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Denmasmolano21/samp-assets-api/issues"
+  },
+  "homepage": "https://github.com/Denmasmolano21/samp-assets-api#readme",
+  "dependencies": {
+    "fastify": "^5.5.0"
+  }
+}
