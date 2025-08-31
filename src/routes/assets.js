@@ -25,7 +25,7 @@ router.get('/', (req, res) =>
   })
 )
 
-routes.get("/rmp", async (req, res) => {
+router.get("/rmp", async (req, res) => {
 	res.status(200).send({ message: "Revolution Multiplayer!" });
 });
 
