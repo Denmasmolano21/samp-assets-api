@@ -1,7 +1,7 @@
-import Fastify from "fastify";
+import express from "express";
 import fs from "fs";
 
-const app = Fastify();
+const app = express();
 
 // Load data JSON
 const skins = JSON.parse(fs.readFileSync("skins/samp_skins.json"));
@@ -10,22 +10,39 @@ const weapons = JSON.parse(fs.readFileSync("weapons/samp_weapons.json"));
 const colors = JSON.parse(fs.readFileSync("colors/samp_colors.json"));
 
 function registerRoute(name, data) {
-  app.get(`/api/${name}`, async () => data);
-  app.get(`/api/${name}/:id`, async (req, reply) => {
+  app.get(`/api/${name}`, (req, res) => {
+    res.json(data);
+  });
+
+  app.get(`/api/${name}/:id`, (req, res) => {
     const item = data.find(d => d.id == req.params.id);
-    if (!item) return reply.code(404).send({ error: `${name} not found` });
-    return item;
+    if (!item) {
+      return res.status(404).json({ error: `${name} not found` });
+    }
+    res.json(item);
   });
 }
+
+// ✅ Root endpoint index
+app.get("/api", (req, res) => {
+  res.json({
+    message: "Welcome to SA:MP Assets API 🚀",
+    endpoints: {
+      skins: "/api/skins",
+      vehicles: "/api/vehicles",
+      weapons: "/api/weapons",
+      colors: "/api/colors"
+    }
+  });
+});
 
 registerRoute("skins", skins);
 registerRoute("vehicles", vehicles);
 registerRoute("weapons", weapons);
 registerRoute("colors", colors);
 
-// Railway pakai process.env.PORT
+// Railway pakai PORT
 const PORT = process.env.PORT || 3000;
-
-app.listen({ port: PORT, host: "0.0.0.0" }, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`API ready at http://0.0.0.0:${PORT}`);
 });

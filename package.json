@@ -4,6 +4,7 @@
   "description": "Kumpulan data terkait SA-MP: - **Skins** → Data skin player (0-311). - **Vehicles** → Data kendaraan di SA-MP. - **Guns** → Data senjata di SA-MP. - **Colors** → Warna-warna RGB/HEX bawaan SA-MP.",
   "main": "index.js",
   "scripts": {
+    "start": "npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/Denmasmolano21/samp-assets-api#readme",
   "dependencies": {
+    "express": "^5.1.0",
     "fastify": "^5.5.0"
   }
 }
