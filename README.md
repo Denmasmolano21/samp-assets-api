@@ -7,6 +7,5 @@ Kumpulan data terkait SA-MP:
 - **Colors** → Warna-warna RGB/HEX bawaan SA-MP.
 
 Semua data tersedia dalam format:
-- `.csv`
 - `.json`
-- File Gambar.
+- File Gambar. `.png`

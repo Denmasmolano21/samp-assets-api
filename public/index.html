@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAMP Assets API</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="header-left">
+          <div class="header-logo">
+            <img src="Logo_Revolution.png" alt="Revolution:MP" />
+          </div>
+          <div class="header-title">
+            <h1>SAMP Assets API</h1>
+            <div class="subtitle">Modern API Visualization Dashboard</div>
+          </div>
+        </div>
+        <div class="header-links">
+          <a
+            href="https://github.com/Denmasmolano21/samp-assets-api"
+            target="_blank"
+            title="GitHub Repository"
+          >
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.43 7.86 10.96.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.2 1.78 1.2 1.04 1.78 2.73 1.27 3.4.97.11-.75.41-1.27.74-1.56-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 2.9-.39c.98 0 1.97.13 2.9.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.69 5.41-5.25 5.7.42.36.79 1.09.79 2.2 0 1.59-.01 2.87-.01 3.26 0 .31.21.68.8.56C20.71 21.45 24 17.12 24 12.02 24 5.74 18.27.5 12 .5z"
+              />
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a
+            href="https://discord.com/invite/yourdiscord"
+            target="_blank"
+            title="Join Discord"
+          >
+            <svg fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M20.317 4.3698a19.7913 19.7913 0 0 0-4.8851-1.5152.0741.0741 0 0 0-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 0 0-.0785-.0371A19.7363 19.7363 0 0 0 3.677 4.3698a.0699.0699 0 0 0-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 0 0 .0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 0 0 .0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 0 0-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 0 1-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 0 1 .0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 0 1 .0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 0 1-.0066.1276c-.598.3428-1.2205.6447-1.8733.8923a.0766.0766 0 0 0-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 0 0 .0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 0 0 .0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6603a.061.061 0 0 0-.0312-.0286zM8.02 15.3312c-1.1835 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.4189 0 1.3333-.9555 2.419-2.1569 2.419zm7.9748 0c-1.1835 0-2.1568-1.0857-2.1568-2.419 0-1.3332.9554-2.4189 2.1568-2.4189 1.2108 0 2.1757 1.0952 2.1569 2.4189 0 1.3333-.9461 2.419-2.1569 2.419Z"
+              />
+            </svg>
+            <span>Discord</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <div class="tabs">
+        <button data-target="vehicles-section" class="active">
+          <span>Vehicles</span>
+        </button>
+        <button data-target="skins-section">
+          <span>Skins</span>
+        </button>
+        <button data-target="weapons-section">
+          <span>Weapons</span>
+        </button>
+        <button data-target="colors-section">
+          <span>Colors</span>
+        </button>
+      </div>
+
+      <div class="content-container">
+        <section id="vehicles-section" class="active">
+          <div class="stats-grid" id="vehicles-stats"></div>
+          <div class="search-pagination-wrapper">
+            <div class="search-container">
+              <input type="text" id="vehicles-search" class="search-input" placeholder="Search vehicles...">
+              <div class="search-results-info" id="vehicles-search-info"></div>
+            </div>
+            <div class="pagination-container" id="vehicles-pagination"></div>
+          </div>
+          <div class="table-wrapper">
+            <div id="vehicles-table" class="loading">
+              Loading vehicles data...
+            </div>
+          </div>
+        </section>
+
+        <section id="skins-section">
+          <div class="stats-grid" id="skins-stats"></div>
+          <div class="search-pagination-wrapper">
+            <div class="search-container">
+              <input type="text" id="skins-search" class="search-input" placeholder="Search skins...">
+              <div class="search-results-info" id="skins-search-info"></div>
+            </div>
+            <div class="pagination-container" id="skins-pagination"></div>
+          </div>
+          <div class="table-wrapper">
+            <div id="skins-table" class="loading">Loading skins data...</div>
+          </div>
+        </section>
+
+        <section id="weapons-section">
+          <div class="stats-grid" id="weapons-stats"></div>
+          <div class="search-pagination-wrapper">
+            <div class="search-container">
+              <input type="text" id="weapons-search" class="search-input" placeholder="Search weapons...">
+              <div class="search-results-info" id="weapons-search-info"></div>
+            </div>
+            <div class="pagination-container" id="weapons-pagination"></div>
+          </div>
+          <div class="table-wrapper">
+            <div id="weapons-table" class="loading">
+              Loading weapons data...
+            </div>
+          </div>
+        </section>
+
+        <section id="colors-section">
+          <div class="stats-grid" id="colors-stats"></div>
+          <div class="search-pagination-wrapper">
+            <div class="search-container">
+              <input type="text" id="colors-search" class="search-input" placeholder="Search colors...">
+              <div class="search-results-info" id="colors-search-info"></div>
+            </div>
+            <div class="pagination-container" id="colors-pagination"></div>
+          </div>
+          <div class="table-wrapper">
+            <div id="colors-table" class="loading">Loading colors data...</div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      // Data storage and pagination state
+      let appData = {
+        vehicles: { raw: [], filtered: [], currentPage: 1, itemsPerPage: 10 },
+        skins: { raw: [], filtered: [], currentPage: 1, itemsPerPage: 10 },
+        weapons: { raw: [], filtered: [], currentPage: 1, itemsPerPage: 10 },
+        colors: { raw: [], filtered: [], currentPage: 1, itemsPerPage: 10 }
+      }
+
+      // Enhanced tab switching with animations
+      document.querySelectorAll('.tabs button').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          // Remove active class from all buttons
+          document
+            .querySelectorAll('.tabs button')
+            .forEach((b) => b.classList.remove('active'))
+          btn.classList.add('active')
+
+          // Hide all sections with fade out
+          document.querySelectorAll('section').forEach((sec) => {
+            sec.classList.remove('active')
+          })
+
+          // Show target section with fade in
+          setTimeout(() => {
+            document.getElementById(btn.dataset.target).classList.add('active')
+          }, 100)
+        })
+      })
+
+      // Search functionality
+      function setupSearch(dataType) {
+        const searchInput = document.getElementById(`${dataType}-search`)
+        const searchInfo = document.getElementById(`${dataType}-search-info`)
+        
+        if (!searchInput) return
+
+        let searchTimeout
+        searchInput.addEventListener('input', (e) => {
+          clearTimeout(searchTimeout)
+          searchTimeout = setTimeout(() => {
+            const query = e.target.value.toLowerCase().trim()
+            filterData(dataType, query)
+            appData[dataType].currentPage = 1 // Reset to first page
+            renderCurrentData(dataType)
+            updateSearchInfo(dataType, query)
+          }, 300) // Debounce search
+        })
+      }
+
+      function filterData(dataType, query) {
+        const data = appData[dataType].raw
+        if (!query) {
+          appData[dataType].filtered = [...data]
+          return
+        }
+
+        appData[dataType].filtered = data.filter(item => {
+          // Search in all relevant fields
+          const searchFields = getSearchFields(dataType, item)
+          return searchFields.some(field => 
+            field && field.toString().toLowerCase().includes(query)
+          )
+        })
+      }
+
+      function getSearchFields(dataType, item) {
+        switch(dataType) {
+          case 'vehicles':
+            return [item.id, item.nama, item.name]
+          case 'skins':
+            return [item.id, item.name]
+          case 'weapons':
+            return [item.id, item.description, item.slot, item.death_reason]
+          case 'colors':
+            return [item.id, item.code]
+          default:
+            return []
+        }
+      }
+
+      function updateSearchInfo(dataType, query) {
+        const infoEl = document.getElementById(`${dataType}-search-info`)
+        if (!infoEl) return
+
+        const totalResults = appData[dataType].filtered.length
+        const totalItems = appData[dataType].raw.length
+
+        if (query) {
+          infoEl.innerHTML = `Found ${totalResults} of ${totalItems} items`
+          infoEl.style.display = 'block'
+        } else {
+          infoEl.style.display = 'none'
+        }
+      }
+
+      // Pagination functionality
+      function createPagination(dataType) {
+        const container = document.getElementById(`${dataType}-pagination`)
+        if (!container) return
+
+        const data = appData[dataType].filtered
+        const currentPage = appData[dataType].currentPage
+        const itemsPerPage = appData[dataType].itemsPerPage
+        const totalPages = Math.ceil(data.length / itemsPerPage)
+
+        if (totalPages <= 1) {
+          container.innerHTML = ''
+          return
+        }
+
+        let paginationHTML = '<div class="pagination">'
+        
+        // Previous button
+        if (currentPage > 1) {
+          paginationHTML += `<button class="pagination-btn" onclick="changePage('${dataType}', ${currentPage - 1})">‹ Prev</button>`
+        }
+
+        // Page numbers
+        const startPage = Math.max(1, currentPage - 2)
+        const endPage = Math.min(totalPages, currentPage + 2)
+
+        if (startPage > 1) {
+          paginationHTML += `<button class="pagination-btn" onclick="changePage('${dataType}', 1)">1</button>`
+          if (startPage > 2) {
+            paginationHTML += '<span class="pagination-dots">...</span>'
+          }
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+          const activeClass = i === currentPage ? 'active' : ''
+          paginationHTML += `<button class="pagination-btn ${activeClass}" onclick="changePage('${dataType}', ${i})">${i}</button>`
+        }
+
+        if (endPage < totalPages) {
+          if (endPage < totalPages - 1) {
+            paginationHTML += '<span class="pagination-dots">...</span>'
+          }
+          paginationHTML += `<button class="pagination-btn" onclick="changePage('${dataType}', ${totalPages})">${totalPages}</button>`
+        }
+
+        // Next button
+        if (currentPage < totalPages) {
+          paginationHTML += `<button class="pagination-btn" onclick="changePage('${dataType}', ${currentPage + 1})">Next ›</button>`
+        }
+
+        paginationHTML += '</div>'
+        
+        // Add page info
+        const startItem = (currentPage - 1) * itemsPerPage + 1
+        const endItem = Math.min(currentPage * itemsPerPage, data.length)
+        paginationHTML += `<div class="pagination-info">Showing ${startItem}-${endItem} of ${data.length} items</div>`
+
+        container.innerHTML = paginationHTML
+      }
+
+      function changePage(dataType, page) {
+        appData[dataType].currentPage = page
+        renderCurrentData(dataType)
+        smoothScrollToTop()
+      }
+
+      // Enhanced data rendering with pagination
+      function renderCurrentData(dataType) {
+        const data = appData[dataType].filtered
+        const currentPage = appData[dataType].currentPage
+        const itemsPerPage = appData[dataType].itemsPerPage
+        
+        const startIndex = (currentPage - 1) * itemsPerPage
+        const endIndex = startIndex + itemsPerPage
+        const pageData = data.slice(startIndex, endIndex)
+
+        // Update table
+        const container = document.getElementById(`${dataType}-table`)
+        const renderFunction = getRenderFunction(dataType)
+        container.innerHTML = renderFunction(pageData)
+
+        // Update pagination
+        createPagination(dataType)
+
+        // Update stats
+        updateStats(dataType)
+      }
+
+      function getRenderFunction(dataType) {
+        const functions = {
+          vehicles: renderVehicles,
+          skins: renderSkins,
+          weapons: renderWeapons,
+          colors: renderColors
+        }
+        return functions[dataType]
+      }
+
+      function updateStats(dataType) {
+        const statsContainer = document.getElementById(`${dataType}-stats`)
+        if (!statsContainer) return
+
+        const filteredCount = appData[dataType].filtered.length
+        const totalCount = appData[dataType].raw.length
+        const label = getStatsLabel(`${dataType}-table`)
+
+        let statsHTML = createStatsCard(filteredCount, label)
+        
+        // Add additional stats if filtered
+        if (filteredCount !== totalCount) {
+          statsHTML += createStatsCard(totalCount, 'Total Available')
+        }
+
+        statsContainer.innerHTML = statsHTML
+      }
+
+      // Enhanced fetch function with search and pagination
+      async function fetchAndRender(endpoint, renderFn, containerId, statsId) {
+        const container = document.getElementById(containerId)
+        const statsContainer = document.getElementById(statsId)
+        const dataType = containerId.replace('-table', '')
+
+        try {
+          const res = await fetch(endpoint)
+          if (!res.ok) throw new Error(`HTTP ${res.status}`)
+
+          const data = await res.json()
+
+          // Store data
+          appData[dataType].raw = Array.isArray(data) ? data : []
+          appData[dataType].filtered = [...appData[dataType].raw]
+          appData[dataType].currentPage = 1
+
+          // Setup search for this data type
+          setupSearch(dataType)
+
+          // Initial render
+          setTimeout(() => {
+            renderCurrentData(dataType)
+            container.classList.remove('loading')
+            const loadingEl = container.querySelector('#loading-indicator')
+            if (loadingEl) loadingEl.remove()
+          }, 200)
+
+        } catch (e) {
+          container.innerHTML = `<div class="error-message">
+            <strong>⚠️ Failed to load data</strong><br>
+            <small>${e.message}</small>
+          </div>`
+
+          if (statsContainer) {
+            statsContainer.innerHTML = createStatsCard(0, getStatsLabel(containerId))
+          }
+        }
+      }
+
+      function createStatsCard(count, label) {
+        return `
+          <div class="stat-card">
+            <div class="stat-number">${count.toLocaleString()}</div>
+            <div class="stat-label">${label}</div>
+          </div>
+        `
+      }
+
+      function getStatsLabel(containerId) {
+        const labels = {
+          'vehicles-table': 'Total Vehicles',
+          'skins-table': 'Total Skins',
+          'weapons-table': 'Total Weapons',
+          'colors-table': 'Total Colors',
+        }
+        return labels[containerId] || 'Total Items'
+      }
+
+      function renderVehicles(data) {
+        if (!Array.isArray(data) || data.length === 0) {
+          return `<div class="empty-state">
+            <div class="empty-state-icon">🚗</div>
+            <div>No vehicles found</div>
+          </div>`
+        }
+
+        return `
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Preview</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${data
+                .map(
+                  (v) => `
+                <tr>
+                  <td><strong style="color: var(--text-primary);">#${
+                    v.id
+                  }</strong></td>
+                  <td>${v.nama || v.name || 'Unknown'}</td>
+                  <td>
+                    ${
+                      v.image
+                        ? `<img class="vehicle-img" src="/vehicles/${
+                            v.image
+                          }" alt="${v.nama || v.name}" loading="lazy" />`
+                        : '<span style="color: var(--text-secondary);">No image</span>'
+                    }
+                  </td>
+                </tr>
+              `
+                )
+                .join('')}
+            </tbody>
+          </table>
+        `
+      }
+
+      function renderSkins(data) {
+        if (!Array.isArray(data) || data.length === 0) {
+          return `<div class="empty-state">
+            <div class="empty-state-icon">🎨</div>
+            <div>No skins found</div>
+          </div>`
+        }
+
+        return `
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Preview</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${data
+                .map(
+                  (s) => `
+                <tr>
+                  <td><strong style="color: var(--text-primary);">#${
+                    s.id
+                  }</strong></td>
+                  <td>${s.name || 'Unknown'}</td>
+                  <td>
+                    ${
+                      s.image_path
+                        ? `<img class="skin-img" src="/skins/${s.image_path}" alt="${s.name}" loading="lazy" />`
+                        : '<span style="color: var(--text-secondary);">No image</span>'
+                    }
+                  </td>
+                </tr>
+              `
+                )
+                .join('')}
+            </tbody>
+          </table>
+        `
+      }
+
+      function renderWeapons(data) {
+        if (!Array.isArray(data) || data.length === 0) {
+          return `<div class="empty-state">
+            <div class="empty-state-icon">⚔️</div>
+            <div>No weapons found</div>
+          </div>`
+        }
+
+        return `
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Icon</th>
+                <th>Description</th>
+                <th>Slot</th>
+                <th>Death Reason</th>
+                <th>Model ID</th>
+                <th>Ammo</th>
+                <th>Reload</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${data
+                .map(
+                  (w) => `
+                <tr>
+                  <td><strong style="color: var(--text-primary);">#${
+                    w.id
+                  }</strong></td>
+                  <td>
+                    ${
+                      w.icon
+                        ? `<img class="weapon-img" src="/weapons/${w.icon}" alt="Weapon ${w.id}" loading="lazy" />`
+                        : '<span style="color: var(--text-secondary);">No icon</span>'
+                    }
+                  </td>
+                  <td>${w.description || '-'}</td>
+                  <td>${w.slot || '-'}</td>
+                  <td>${w.death_reason || '-'}</td>
+                  <td>${w.model_id || '-'}</td>
+                  <td>${w.ammo || '-'}</td>
+                  <td>${w.reload || '-'}</td>
+                </tr>
+              `
+                )
+                .join('')}
+            </tbody>
+          </table>
+        `
+      }
+
+      function renderColors(data) {
+        if (!Array.isArray(data) || data.length === 0) {
+          return `<div class="empty-state">
+            <div class="empty-state-icon">🎨</div>
+            <div>No colors found</div>
+          </div>`
+        }
+
+        return `
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Color Code</th>
+                <th>Preview</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${data
+                .map(
+                  (c) => `
+                <tr>
+                  <td><strong style="color: var(--text-primary);">#${c.id}</strong></td>
+                  <td><code style="background: var(--surface-bg); padding: 0.25rem 0.5rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; color: var(--text-primary);">${c.code}</code></td>
+                  <td>
+                    <div class="color-preview" style="background: ${c.code}" title="${c.code}"></div>
+                  </td>
+                </tr>
+              `
+                )
+                .join('')}
+            </tbody>
+          </table>
+        `
+      }
+
+      // Initialize data loading with enhanced error handling
+      async function initializeApp() {
+        const endpoints = [
+          {
+            url: '/api/vehicles/',
+            render: renderVehicles,
+            container: 'vehicles-table',
+            stats: 'vehicles-stats',
+          },
+          {
+            url: '/api/skins/',
+            render: renderSkins,
+            container: 'skins-table',
+            stats: 'skins-stats',
+          },
+          {
+            url: '/api/weapons/',
+            render: renderWeapons,
+            container: 'weapons-table',
+            stats: 'weapons-stats',
+          },
+          {
+            url: '/api/colors/',
+            render: renderColors,
+            container: 'colors-table',
+            stats: 'colors-stats',
+          },
+        ]
+
+        // Load all data concurrently
+        await Promise.all(
+          endpoints.map((endpoint) =>
+            fetchAndRender(
+              endpoint.url,
+              endpoint.render,
+              endpoint.container,
+              endpoint.stats
+            )
+          )
+        )
+      }
+
+      // Enhanced loading animation
+      function showLoadingState() {
+        document.querySelectorAll('[id$="-table"]').forEach((container) => {
+          container.innerHTML =
+            '<div id="loading-indicator">Loading data...</div>'
+        })
+      }
+
+      // Smooth scroll to top when switching tabs
+      function smoothScrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        })
+      }
+
+      // Add smooth scroll to tab switching
+      document.querySelectorAll('.tabs button').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          setTimeout(smoothScrollToTop, 100)
+        })
+      })
+
+      // Initialize app when DOM is loaded
+      document.addEventListener('DOMContentLoaded', () => {
+        showLoadingState()
+        initializeApp()
+      })
+
+      // Add keyboard navigation for tabs
+      document.addEventListener('keydown', (e) => {
+        if (e.key >= '1' && e.key <= '4') {
+          const tabIndex = parseInt(e.key) - 1
+          const tabs = document.querySelectorAll('.tabs button')
+          if (tabs[tabIndex]) {
+            tabs[tabIndex].click()
+          }
+        }
+      })
+
+      // Add intersection observer for smooth animations
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = '1'
+              entry.target.style.transform = 'translateY(0)'
+            }
+          })
+        },
+        { threshold: 0.1 }
+      )
+
+      // Observe all stat cards when they're created
+      setTimeout(() => {
+        document.querySelectorAll('.stat-card').forEach((card) => {
+          card.style.opacity = '0'
+          card.style.transform = 'translateY(20px)'
+          card.style.transition = 'opacity 0.6s ease, transform 0.6s ease'
+          observer.observe(card)
+        })
+      }, 1000)
+
+      // Add visual feedback for loading states
+      function addLoadingFeedback() {
+        const style = document.createElement('style')
+        style.textContent = `
+          .pulse {
+            animation: pulse 1.5s ease-in-out infinite;
+          }
+
+          @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+          }
+
+          /* Search and Pagination Styles */
+          .search-pagination-wrapper {
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+          }
+
+          .search-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+          }
+
+          .search-input {
+            padding: 0.75rem 1rem;
+            border: 2px solid var(--border-color, #ddd);
+            border-radius: 8px;
+            font-size: 1rem;
+            background: var(--surface-bg, #fff);
+            color: var(--text-primary, #333);
+            transition: all 0.3s ease;
+          }
+
+          .search-input:focus {
+            outline: none;
+            border-color: var(--primary-color, #007bff);
+            box-shadow: 0 0 0 3px var(--primary-color-alpha, rgba(0, 123, 255, 0.1));
+          }
+
+          .search-results-info {
+            font-size: 0.875rem;
+            color: var(--text-secondary, #666);
+            display: none;
+          }
+
+          .pagination-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+          }
+
+          .pagination {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+          }
+
+          .pagination-btn {
+            padding: 0.5rem 0.75rem;
+            border: 1px solid var(--border-color, #ddd);
+            background: var(--surface-bg, #fff);
+            color: var(--text-primary, #333);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+          }
+
+          .pagination-btn:hover {
+            background: var(--hover-bg, #f5f5f5);
+            border-color: var(--primary-color, #007bff);
+          }
+
+          .pagination-btn.active {
+            background: var(--primary-color, #007bff);
+            color: white;
+            border-color: var(--primary-color, #007bff);
+          }
+
+          .pagination-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+          }
+
+          .pagination-dots {
+            padding: 0.5rem;
+            color: var(--text-secondary, #666);
+          }
+
+          .pagination-info {
+            font-size: 0.875rem;
+            color: var(--text-secondary, #666);
+            text-align: center;
+          }
+
+          /* Responsive design */
+          @media (min-width: 768px) {
+            .search-pagination-wrapper {
+              flex-direction: row;
+              justify-content: space-between;
+              align-items: flex-start;
+            }
+
+            .search-container {
+              flex: 1;
+              max-width: 400px;
+            }
+
+            .pagination-container {
+              align-items: flex-end;
+            }
+          }
+
+          /* Loading and empty states */
+          .loading-state {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-secondary, #666);
+          }
+
+          .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-secondary, #666);
+          }
+
+          .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+          }
+        `
+        document.head.appendChild(style)
+      }
+
+      // Initialize loading feedback
+      addLoadingFeedback()
+    </script>
+  </body>
+</html>
