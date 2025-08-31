@@ -2,9 +2,9 @@ import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
 import path from 'path'
-import assetsRouter from './routes/assets.js'
-import errorHandler from './utils/errorHandler.js'
-import * as logger from './utils/logger.js'
+import assetsRouter from './api/routes/assets.js'
+import errorHandler from './api/utils/errorHandler.js'
+import * as logger from './api/utils/logger.js'
 
 const app = express()
 const PORT = process.env.PORT || 3000
