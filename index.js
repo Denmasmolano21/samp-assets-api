@@ -23,7 +23,9 @@ registerRoute("vehicles", vehicles);
 registerRoute("weapons", weapons);
 registerRoute("colors", colors);
 
-app.listen({ port: 3000, host: "0.0.0.0" }, () => {
-  console.log("API ready at http://0.0.0.0:3000");
-});
+// Railway pakai process.env.PORT
+const PORT = process.env.PORT || 3000;
 
+app.listen({ port: PORT, host: "0.0.0.0" }, () => {
+  console.log(`API ready at http://0.0.0.0:${PORT}`);
+});
