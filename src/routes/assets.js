@@ -25,6 +25,10 @@ router.get('/', (req, res) =>
   })
 )
 
+routes.get("/rmp", async (req, res) => {
+	res.status(200).send({ message: "Revolution Multiplayer!" });
+});
+
 router.get('/vehicles', (req, res) => res.json(vehicles))
 router.get('/vehicles/:id', (req, res) => {
   const item = vehicles.find((s) => s.id == req.params.id)
