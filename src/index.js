@@ -3,7 +3,6 @@ import http from 'http'
 import { config } from 'dotenv'
 import app from './app.js'
 import * as logger from './utils/logger.js'
-import app from './app.js'
 
 const PORT = process.env.PORT || 3003
 
