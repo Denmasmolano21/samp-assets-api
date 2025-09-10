@@ -15,11 +15,17 @@ app.use(express.json())
 app.use(morgan('tiny'))
 
 // Static files
-app.use(express.static(path.resolve('.', 'public')))
-app.use('../public/vehicles/samp_vehicles_images', express.static(path.resolve('.', 'vehicles/samp_vehicles_images')))
-app.use('../public/skins/samp_skins_images', express.static(path.resolve('.', 'skins/samp_skins_images')))
-app.use('../public/weapons/samp_weapons_images', express.static(path.resolve('.', 'weapons/samp_weapons_images')))
-app.use('../public/colors/samp_colors_images', express.static(path.resolve('.', 'colors/samp_colors_images')))
+// app.use(express.static(path.resolve('.', 'public')))
+// app.use('../public/vehicles/samp_vehicles_images', express.static(path.resolve('.', 'vehicles/samp_vehicles_images')))
+// app.use('../public/skins/samp_skins_images', express.static(path.resolve('.', 'skins/samp_skins_images')))
+// app.use('../public/weapons/samp_weapons_images', express.static(path.resolve('.', 'weapons/samp_weapons_images')))
+// app.use('../public/colors/samp_colors_images', express.static(path.resolve('.', 'colors/samp_colors_images')))
+
+app.use(express.static(path.join(process.cwd(), 'public')));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.join(process.cwd(), 'public', 'index.html'));
+});
 
 // Routes
 // app.get('/', (req, res) => res.json({ status: 'ok' }))
