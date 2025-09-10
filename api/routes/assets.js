@@ -8,10 +8,10 @@ const dataDir = path.resolve('.')
 const load = (file) =>
   JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf-8'))
 
-const vehicles = load('vehicles/samp_vehicles.json')
-const skins = load('skins/samp_skins.json')
-const colors = load('colors/samp_colors.json')
-const weapons = load('weapons/samp_weapons.json')
+const vehicles = load('public/vehicles/samp_vehicles.json')
+const skins = load('public/skins/samp_skins.json')
+const colors = load('public/colors/samp_colors.json')
+const weapons = load('public/weapons/samp_weapons.json')
 
 router.get('/', (req, res) =>
   res.json({

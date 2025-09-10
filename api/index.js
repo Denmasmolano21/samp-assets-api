@@ -2,9 +2,9 @@ import express from 'express'
 import cors from 'cors'
 import morgan from 'morgan'
 import path from 'path'
-import assetsRouter from './api/routes/assets.js'
-import errorHandler from './api/utils/errorHandler.js'
-import * as logger from './api/utils/logger.js'
+import assetsRouter from './routes/assets.js'
+import errorHandler from './utils/errorHandler.js'
+import * as logger from './utils/logger.js'
 
 const app = express()
 const PORT = process.env.PORT || 3000
@@ -16,10 +16,10 @@ app.use(morgan('tiny'))
 
 // Static files
 app.use(express.static(path.resolve('.', 'public')))
-app.use('/vehicles/samp_vehicles_images', express.static(path.resolve('.', 'vehicles/samp_vehicles_images')))
-app.use('/skins/samp_skins_images', express.static(path.resolve('.', 'skins/samp_skins_images')))
-app.use('/weapons/samp_weapons_images', express.static(path.resolve('.', 'weapons/samp_weapons_images')))
-app.use('/colors/samp_colors_images', express.static(path.resolve('.', 'colors/samp_colors_images')))
+app.use('../public/vehicles/samp_vehicles_images', express.static(path.resolve('.', 'vehicles/samp_vehicles_images')))
+app.use('../public/skins/samp_skins_images', express.static(path.resolve('.', 'skins/samp_skins_images')))
+app.use('../public/weapons/samp_weapons_images', express.static(path.resolve('.', 'weapons/samp_weapons_images')))
+app.use('../public/colors/samp_colors_images', express.static(path.resolve('.', 'colors/samp_colors_images')))
 
 // Routes
 app.get('/', (req, res) => res.json({ status: 'ok' }))
