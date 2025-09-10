@@ -21,10 +21,10 @@ app.use(morgan('tiny'))
 // app.use('../public/weapons/samp_weapons_images', express.static(path.resolve('.', 'weapons/samp_weapons_images')))
 // app.use('../public/colors/samp_colors_images', express.static(path.resolve('.', 'colors/samp_colors_images')))
 
-app.use(express.static(path.join(process.cwd(), 'public')));
+app.use(express.static(path.join(process.cwd(), '../public')));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(process.cwd(), 'public', 'index.html'));
+  res.sendFile(path.join(process.cwd(), 'public', '../index.html'));
 });
 
 // Routes
