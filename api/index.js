@@ -1,44 +1,47 @@
-import express from 'express'
-import cors from 'cors'
-import morgan from 'morgan'
-import path from 'path'
-import assetsRouter from './routes/assets.js'
-import errorHandler from './utils/errorHandler.js'
-import * as logger from './utils/logger.js'
+import express from 'express';
+import cors from 'cors';
+import morgan from 'morgan';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import assetsRouter from './routes/assets.js';
+import errorHandler from './utils/errorHandler.js';
+import * as logger from './utils/logger.js';
 
-const app = express()
-const PORT = process.env.PORT || 3000
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// ===== Fix path untuk ES Module =====
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const publicPath = path.join(__dirname, '../public'); // public ada di root
 
 // Middleware
-app.use(cors())
-app.use(express.json())
-app.use(morgan('tiny'))
+app.use(cors());
+app.use(express.json());
+app.use(morgan('tiny'));
 
 // Static files
-// app.use(express.static(path.resolve('.', 'public')))
-// app.use('../public/vehicles/samp_vehicles_images', express.static(path.resolve('.', 'vehicles/samp_vehicles_images')))
-// app.use('../public/skins/samp_skins_images', express.static(path.resolve('.', 'skins/samp_skins_images')))
-// app.use('../public/weapons/samp_weapons_images', express.static(path.resolve('.', 'weapons/samp_weapons_images')))
-// app.use('../public/colors/samp_colors_images', express.static(path.resolve('.', 'colors/samp_colors_images')))
+app.use(express.static(publicPath));
 
-app.use(express.static(path.join(process.cwd(), '../public')));
-
+// Root route → tampilkan index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(process.cwd(), 'public', '../index.html'));
+  res.sendFile(path.join(publicPath, 'index.html'));
 });
 
-// Routes
-// app.get('/', (req, res) => res.json({ status: 'ok' }))
+// Healthcheck
 app.get('/healthcheck', (req, res) => {
   res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
 });
-app.use('/api', assetsRouter)
 
-// Error handling
-app.use(errorHandler)
+// API routes
+app.use('/api', assetsRouter);
+
+// Error handler
+app.use(errorHandler);
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`🚀 Server ready on port ${PORT}`)
-  logger.info(`🚀 Server ready on port ${PORT}`)
-})
+  console.log(`🚀 Server ready on port ${PORT}`);
+  logger.info(`🚀 Server ready on port ${PORT}`);
+});
+
